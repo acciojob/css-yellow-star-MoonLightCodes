@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+.star {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            clip-path: polygon(
+                50% 0%, 61% 38%, 100% 38%, 68% 60%, 
+                79% 100%, 50% 75%, 21% 100%, 32% 60%, 
+                0% 38%, 39% 38%
+            );
+        }
